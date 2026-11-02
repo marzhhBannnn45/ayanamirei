@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f4efe6;
+      color: #24211d;
+    }
+
+    body {
+      display: grid;
+      min-height: 100vh;
+      margin: 0;
+      place-items: center;
+      background: linear-gradient(135deg, #f4efe6, #dce8e1);
+    }
+
+    main {
+      max-width: 38rem;
+      padding: 3rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      line-height: 1;
+    }
+
+    p {
+      margin: 0 0 2rem;
+      font-size: 1.15rem;
+      line-height: 1.6;
+    }
+
+    button {
+      border: 0;
+      border-radius: 999px;
+      padding: 0.85rem 1.5rem;
+      background: #b94b3a;
+      color: #fffaf3;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+    }
+
+    button:hover {
+      background: #963b2d;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Welcome</h1>
+    <p>A small HTML5 site with everything kept in one file.</p>
+    <button type="button" onclick="this.textContent = 'Thanks for visiting!'">Say hello</button>
+  </main>
+</body>
+</html>
